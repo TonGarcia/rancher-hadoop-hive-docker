@@ -1,0 +1,13 @@
+# services based on docker-compose
+namenode:
+  scale: 1
+datanode:
+  scale: 1
+hive-server:
+  scale: 1
+hive-metastore:
+  scale: 1
+hive-metastore-postgresql:
+  scale: 1
+presto-coordinator:
+  scale: 1
